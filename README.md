@@ -1,0 +1,1 @@
+# scala-library-template.g8
