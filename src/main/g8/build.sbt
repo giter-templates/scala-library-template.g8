@@ -1,6 +1,6 @@
 import Dependencies._
 
-val scala2_13 = "2.13.8"
+val scala2_13 = "2.13.6"
 
 val compileAndTest = "compile->compile;test->test"
 
