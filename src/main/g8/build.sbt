@@ -1,3 +1,5 @@
+import Dependencies._
+
 val scala2_13 = "2.13.8"
 
 val compileAndTest = "compile->compile;test->test"
@@ -55,9 +57,6 @@ lazy val noPublish = Seq(
 
 lazy val commonSettings = Seq(
   libraryDependencies ++= Seq(
-    zioConfig,
-    zioConfigMagnolia,
-    zioConfigTypesafe,
     scalaTest % Test
   ),
   addCompilerPlugin(
